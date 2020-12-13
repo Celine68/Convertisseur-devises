@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #BEBEBD;
+    padding: 0;
+}
+
+header {
+    background-image: url('../images/dollars-499481_960_720.webp');
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+form {
+    text-align: center;
+}
+
+.form_input {
+    width: 150px;
+    height: 20px;
+}
+
+.form_select {
+    height: 25px;
+}
+
+.form_equal {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    padding: 0 0.6rem;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #2879FF;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+@media (min-width: 750px) {
+    .form_equal {
+        display: inline-block;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .form_input {
+        width: 200px;
+    }
+}
